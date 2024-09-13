@@ -34,4 +34,4 @@ jobs:
           npm install -g vercel
           vercel --prod --token=$VERCEL_TOKEN # Requires the Vercel token to deploy
           env:
-          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+            VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
